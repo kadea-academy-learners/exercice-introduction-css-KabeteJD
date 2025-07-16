@@ -1,3 +1,49 @@
+main, header, footer {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(200, 200, 200);
+}
 
 
+h1, p{
+    text-align: center;
+}
 
+.photos{
+    background-color: white;
+    padding-bottom: 9px;
+    text-align: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+figcaption{
+    margin-top: 10px;
+}
+
+section{
+    margin: 0 auto;
+    width: 30rem;
+    margin-top: 19px;
+}
+
+li{
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+section p{
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+footer{
+    font-weight: bold;
+}
