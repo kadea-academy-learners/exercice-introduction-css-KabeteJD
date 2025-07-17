@@ -1,4 +1,4 @@
-main, header, footer {
+header, main, footer {
   width: 90%;
   max-width: 900px;
   margin: auto;
@@ -9,14 +9,13 @@ body{
     background-color: rgb(200, 200, 200);
 }
 
-
 h1, p{
     text-align: center;
 }
 
 .photos{
-    background-color: white;
-    padding-bottom: 9px;
+    background-color: white; 
+    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -29,7 +28,7 @@ figcaption{
     margin-top: 10px;
 }
 
-section{
+.Biographie{
     margin: 0 auto;
     width: 30rem;
     margin-top: 19px;
@@ -44,6 +43,10 @@ section p{
     margin-bottom: 10px;
 }
 
+.citation{
+    width: 550px;
+    margin: 0 auto;
+}
 footer{
     font-weight: bold;
 }
